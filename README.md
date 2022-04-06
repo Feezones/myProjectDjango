@@ -1,0 +1,2 @@
+# myProjectDjango
+ plataforma de streaming
