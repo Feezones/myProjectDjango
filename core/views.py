@@ -28,3 +28,6 @@ def produto(request, pk):
         'produto' : prod
     }
     return render(request, 'produto.html', context)
+
+def register(request):
+    return render(request, 'register.html')

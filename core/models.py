@@ -15,4 +15,12 @@ class Cliente(models.Model):
 
     def __str__(self):
         return f'{self.nome} {self.sobrenome}'
+
+class Cadastro(models.Model):
+    nome = models.CharField('nome', max_length=100)
+    sobrenome = models.CharField('nome', max_length=100)
+    cpf = models.IntegerField('CPF', )
+    eMail = models.CharField('Email', max_length=100)
+    senha = models.CharField('Email', max_length=10)
+    confSenha = models.CharField('Email', max_length=10)
     
